@@ -1,0 +1,139 @@
+/********Tags*********/
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1{
+  margin:50px auto 0 auto ;
+  font-family: 'Bree Serif', serif;
+  font-size: 80px;
+  color: #66bfbf;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: #66bfbf;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+}
+
+hr{
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: grey;
+  width: 10%;
+}
+
+a{
+  color: #11999e;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+/**********Class*************/
+.intro{
+  width:30%;
+  margin: auto;
+  line-height: 2;
+}
+.skills{
+  margin: 50px 0 50px;
+}
+
+.profile{
+  margin: 50px 0 50px;
+}
+
+.top-container{
+  background-color: #e4f9ff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 40px;
+  right: 350px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left: 300px;
+}
+
+.personal{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 150px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.html-images{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.js-images{
+  width: 25%;
+  float: right;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+	box-shadow: 0 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #3d768a;
+  margin-bottom: 100px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 14px;
+}
